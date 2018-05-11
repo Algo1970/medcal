@@ -19,6 +19,7 @@ fluidPage(theme = shinytheme("flatly"),
             ),
             column(8,
                    verbatimTextOutput("MELDscore")
-            )
+            ),
+            column(12, h5("MELDscoreが25以上の場合、緊急肝移植の適応とする報告がある。"))
           )
 )
