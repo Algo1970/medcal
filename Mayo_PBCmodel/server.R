@@ -18,7 +18,10 @@ server <- function(input, output){
       }
       S0(t) ^ exp(RiskScore - 5.07)
     }
-    combine(paste(year_list = c("1y:","2y:","3y:","4y:","5y:","6y:","7y:"), round(Survival_probability(1:7), 2)))
+    # combine(paste(year_list = c("1y:","2y:","3y:","4y:","5y:","6y:","7y:"), round(Survival_probability(1:7), 2)))
+    combine(paste0(year_list = c("1y:","2y:","3y:","4y:","5y:","6y:","7y:"), round(Survival_probability(1:7)*100, 0), rep("% ", 7)))
   })
 }
+
+
 

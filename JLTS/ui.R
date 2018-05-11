@@ -10,10 +10,10 @@ fluidPage(theme = shinytheme("flatly"),
                    numericInput("Tbil", "T-Bil(mg/dl):", 1.0, step = 0.1)
             ),
             column(2,
-                   numericInput("AST", "AST(mg/dl):", 30, step = 1)
+                   numericInput("AST", "AST(U/L):", 30, step = 1)
             ),
             column(2,
-                   numericInput("ALT", "ALT(mg/dl):", 30, step = 1)
+                   numericInput("ALT", "ALT(U/L):", 30, step = 1)
             ),
             
             column(8,
