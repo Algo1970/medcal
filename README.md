@@ -11,6 +11,6 @@ wget https://raw.githubusercontent.com/Algo1970/medcal/master/ui.R
 wget https://raw.githubusercontent.com/Algo1970/medcal/master/server.R
 ```
 
-ブラウザから<ip address>:3838で接続できます。
+ブラウザから`<ip address>:3838`で接続できます。
 
 ![medcalc](img/medcal1.png)
