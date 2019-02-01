@@ -1,4 +1,4 @@
-# medcal
+# MEDcal
 肝疾患関連のスコアリング（Fib4index、NFS）、糖尿病関連の計算（HOMA-R等）のshinyアプリ
 
 ローカル環境で使用する場合は、ダウンロードしてshinyファイルを実行するだけです。
